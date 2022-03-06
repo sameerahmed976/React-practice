@@ -39,6 +39,16 @@ import LiFtingStateUp from "./Components/LiFtingStateUp";
 import Purecomponent from "./Components/Purecomponent";
 import UseMemo from "./Components/UseMemo";
 import ClassRef from "./Components/ClassRef";
+import UseRef from "./Components/UseRef";
+import ForwardRef from "./Components/ForwardRef";
+import ControlledComponent from "./Components/ControlledComponent";
+import UncontrolledComponent from "./Components/UncontrolledComponent";
+import HOC from "./Components/HOC";
+import Api from "./Components/Api";
+import Post from "./Components/Post";
+import PrevProps from "./Components/PrevProps";
+import StateObject from "./StateObject";
+import ContextApi from "./Components/ContextApi";
 // // funstional component
 // function HelloWorld() {
 //   return <h1>Hello World</h1>;
@@ -106,7 +116,20 @@ function App() {
       {/* <LiFtingStateUp /> */}
       {/* <Purecomponent /> */}
       {/* <UseMemo /> */}
-      <ClassRef />
+      {/* <ClassRef /> */}
+      {/* <UseRef />
+       */}
+      {/* <ForwardRef /> */}
+      {/* <ControlledComponent /> */}
+      {/* <UncontrolledComponent /> */}
+      {/* <HOC /> */}
+      {/* <Api />
+      
+      */}
+      {/* <Post /> */}
+      {/* <PrevProps /> */}
+      {/* <StateObject /> */}
+      {/* <ContextApi /> */}
     </React.Fragment>
   );
 }
